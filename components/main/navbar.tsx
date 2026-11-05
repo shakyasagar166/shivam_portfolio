@@ -102,7 +102,7 @@ export const Navbar = () => {
                 ? "0 20px 45px -10px rgba(112,66,248,0.5), 0 0 35px 2px rgba(6,182,212,0.35)"
                 : "0 15px 35px rgba(3,0,20,0.85), 0 0 25px rgba(112,66,248,0.25)",
             }}
-            className="relative rounded-full bg-[#030014]/90 backdrop-blur-2xl border border-purple-500/60 px-4 sm:px-6 py-2.5 transition-colors duration-300 flex items-center justify-between overflow-hidden"
+            className="relative rounded-full bg-[#030014]/95 backdrop-blur-2xl border border-purple-500/60 px-3 sm:px-6 py-2 sm:py-2.5 transition-colors duration-300 flex items-center justify-between overflow-hidden shadow-2xl"
           >
             {/* Dynamic Light Sweep Glare across Island */}
             {navHovered && (
@@ -232,7 +232,7 @@ export const Navbar = () => {
 
             {/* Hamburger Menu for Mobile */}
             <button
-              className="md:hidden text-white focus:outline-none p-1.5 rounded-full bg-[#030014]/80 border border-purple-500/40 text-lg relative z-20"
+              className="md:hidden text-white focus:outline-none w-9 h-9 flex items-center justify-center rounded-xl bg-purple-950/70 border border-purple-500/50 hover:border-cyan-400 text-base relative z-30 shrink-0 transition-all shadow-md active:scale-95"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle Menu"
             >
