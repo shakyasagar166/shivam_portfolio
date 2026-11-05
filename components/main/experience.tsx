@@ -208,6 +208,14 @@ export const Experience = () => {
                   <p className="text-xs sm:text-sm text-gray-200 leading-relaxed font-mono">
                     Architected robust backend RESTful controllers and transactional services.
                   </p>
+                  <a
+                    href="https://food-delivery-java-fullstack-zlqd-taupe.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-[11px] font-mono font-bold text-purple-300 hover:text-white mt-2.5 underline decoration-purple-400 underline-offset-2 transition-colors"
+                  >
+                    <span>Live Food App ↗</span>
+                  </a>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-gradient-to-br from-[#0a071e]/90 to-[#030014] border border-pink-500/30 hover:border-pink-400 transition-all shadow-sm">
